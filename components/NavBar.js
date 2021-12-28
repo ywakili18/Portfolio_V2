@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 const NavBar = () => {
   return (
-    <nav className="flex justify-around bg-slate-800 text-md font-bold p-4  rounded">
+    <nav className="flex justify-around bg-slate-800 text-md font-bold p-4  sticky top-0 z-50 rounded">
       <Link href="/#">
         <a className=" hover:text-fuchsia-400">&#91; yousof. &#93;</a>
       </Link>
