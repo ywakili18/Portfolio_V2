@@ -20,6 +20,7 @@ export default function Home() {
       </Head>
       <NavBar />
       <motion.div
+        id="#"
         className=" flex h-screen"
         initial={{
           scale: 0
