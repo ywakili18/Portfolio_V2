@@ -1,10 +1,12 @@
 import React from 'react'
-
+import Card from '../components/projectcards/card'
 const Projects = () => {
   return (
-    <div className="h-screen bg-red-500" id="projects">
-      {' '}
-      this projects
+    <div
+      className="p-20 border-2 border-white flex justify-evenly"
+      id="projects"
+    >
+      <Card />
     </div>
   )
 }

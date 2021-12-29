@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai'
 const NavBar = () => {
   return (
     <motion.div
@@ -15,7 +14,7 @@ const NavBar = () => {
     >
       <nav
         className="flex bg-slate-800 text-xs sm:text-xl justify-evenly font-Comfortaa
-      tracking-wide p-4 h-20 fixed top-0 inset-x-0 rounded-b-lg "
+      tracking-wide p-4 h-20 fixed top-0 inset-x-0 z-20 rounded-b-lg "
       >
         <Link href="/#">
           <a className=" hover:text-blue-900 hover:bg-violet-400  rounded-lg  px-3  md:mt-0">

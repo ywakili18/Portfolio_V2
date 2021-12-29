@@ -41,7 +41,7 @@ export default function Home() {
         transition={{ delay: 0.4 }}
       >
         {/* Title */}
-        <div className="m-auto  mt-28 sm:mx-auto text-center">
+        <div className="m-auto  mt-28 sm:mx-auto text-center ">
           <h1 className="text-xl sm:text-7xl text-purple-500 flex justify-center">
             Yousof Wakili
             <SiXdadevelopers className="mt-2 ml-2" />

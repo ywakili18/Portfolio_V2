@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-const Button = ({ bgcolor, text }) => {
+const Button = ({ text }) => {
   return (
     <motion.div
       initial={{
