@@ -10,7 +10,7 @@ const Button = ({ bgcolor, text }) => {
         y: 0,
         opacity: 1
       }}
-      transition={{ delay: 1 }}
+      transition={{ delay: 1.1 }}
       className="mt-10 text-center"
     >
       <a

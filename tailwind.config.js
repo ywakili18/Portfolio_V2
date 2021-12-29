@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      Montserrat: ['Montserrat', 'sans-serif']
+      Montserrat: ['Montserrat', 'sans-serif'],
+      Comfortaa: ['Comfortaa', 'cursive']
     }
   },
   plugins: []
