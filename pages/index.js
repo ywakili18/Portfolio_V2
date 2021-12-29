@@ -41,8 +41,8 @@ export default function Home() {
             Yousof Wakili
             <SiXdadevelopers className="mt-2 ml-2" />
           </h1>
-          <div className="flex mt-4">
-            <motion.h2
+          <div className="flex mt-10">
+            <motion.p
               initial={{
                 y: 200,
                 opacity: 0
@@ -56,8 +56,8 @@ export default function Home() {
             >
               Software Engineer{' '}
               <MdKeyboardAlt className=" ml-2 mt-0.5 sm:mt-1 " />
-            </motion.h2>
-            <motion.h3
+            </motion.p>
+            <motion.p
               initial={{
                 y: 200,
                 opacity: 0
@@ -71,7 +71,7 @@ export default function Home() {
             >
               Front-End Developer{' '}
               <MdOutlineDeveloperBoard className="ml-2 mt-0.5 sm:mt-1" />
-            </motion.h3>
+            </motion.p>
           </div>
 
           <Link href="#contact">

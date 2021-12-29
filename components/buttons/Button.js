@@ -11,7 +11,7 @@ const Button = ({ bgcolor, text }) => {
         opacity: 1
       }}
       transition={{ delay: 1 }}
-      className="mt-4 text-center"
+      className="mt-10 text-center"
     >
       <a
         href="#_"
