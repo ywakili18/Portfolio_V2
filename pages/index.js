@@ -6,10 +6,12 @@ import Projects from './Projects'
 import Contact from './Contact'
 import About from './About'
 import Button from '../components/buttons/Button'
+import { SiXdadevelopers } from 'react-icons/si'
+import { MdOutlineDeveloperBoard, MdKeyboardAlt } from 'react-icons/md'
 import { motion } from 'framer-motion'
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Yousof Wakili</title>
         <meta name="Portfolio" content="Yousof Wakili Portfolio" />
@@ -17,11 +19,15 @@ export default function Home() {
           rel="icon"
           href="https://cdn-icons-png.flaticon.com/512/808/808439.png"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <NavBar />
       <motion.div
         id="#"
-        className=" flex h-screen"
+        className="flex h-screen"
         initial={{
           scale: 0
         }}
@@ -30,38 +36,44 @@ export default function Home() {
         }}
         transition={{ delay: 0.3 }}
       >
-        <div className="m-auto">
-          <h1 className="font-extrabold text-6xl text-purple-500">
-            Yousof Wakili.
+        <div className="m-auto  mt-28 sm:mx-auto">
+          <h1 className="text-xl sm:text-7xl text-purple-500 flex justify-center">
+            Yousof Wakili
+            <SiXdadevelopers className="mt-2 ml-2" />
           </h1>
-          <motion.h2
-            initial={{
-              y: 200,
-              opacity: 0
-            }}
-            animate={{
-              y: 0,
-              opacity: 1
-            }}
-            transition={{ delay: 0.6 }}
-            className="text-3xl text-slate-300 ml-2 mt-2"
-          >
-            Software Engineer.
-          </motion.h2>
-          <motion.h3
-            initial={{
-              y: 200,
-              opacity: 0
-            }}
-            animate={{
-              y: 0,
-              opacity: 1
-            }}
-            transition={{ delay: 0.9 }}
-            className="text-3xl text-slate-300 ml-2"
-          >
-            Front-End Developer.
-          </motion.h3>
+          <div className="flex mt-4">
+            <motion.h2
+              initial={{
+                y: 200,
+                opacity: 0
+              }}
+              animate={{
+                y: 0,
+                opacity: 1
+              }}
+              transition={{ delay: 0.6 }}
+              className="text-xs sm:text-2xl text-pink-100  flex"
+            >
+              Software Engineer{' '}
+              <MdKeyboardAlt className=" ml-2 mt-0.5 sm:mt-1 " />
+            </motion.h2>
+            <motion.h3
+              initial={{
+                y: 200,
+                opacity: 0
+              }}
+              animate={{
+                y: 0,
+                opacity: 1
+              }}
+              transition={{ delay: 0.6 }}
+              className="text-xs sm:text-2xl text-pink-100  flex ml-2"
+            >
+              Front-End Developer{' '}
+              <MdOutlineDeveloperBoard className="ml-2 mt-0.5 sm:mt-1" />
+            </motion.h3>
+          </div>
+
           <Link href="#contact">
             <a>
               <Button text="Contact Me" />
