@@ -26,8 +26,8 @@ const card = () => {
           <div key={path} className="sm:flex justify-evenly mt-20">
             <Image
               src={`/${path}.png`}
-              width={400}
-              height={400}
+              width={700}
+              height={500}
               alt="project image"
             />
             {checkPath(path)}
