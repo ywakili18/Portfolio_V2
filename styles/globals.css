@@ -15,7 +15,7 @@ html {
   @apply font-Montserrat;
 }
 .language {
-  padding: 0.4em;
+  padding: 0.6em;
   background-color: rgb(42, 42, 41);
   border-radius: 1em;
   font-weight: 900;

@@ -13,7 +13,7 @@ const NavBar = () => {
       transition={{ delay: 1.4 }}
     >
       <nav
-        className="flex bg-slate-800 text-xs sm:text-xl justify-evenly font-Comfortaa
+        className="flex bg-zinc-800 text-slate-100 text-xs sm:text-xl justify-evenly font-Comfortaa
       tracking-wide p-4 h-20 fixed top-0 inset-x-0 z-20 rounded-b-lg "
       >
         <Link href="/#">

@@ -10,7 +10,7 @@ const Form = () => {
       <div className="border border-white rounded-lg flex flex-col text-center p-2 text-xs ">
         <label
           htmlFor="name"
-          className="text-violet-400 text-left text-lg sm:text-xl md:text-2xl"
+          className="text-violet-400 text-left text-lg sm:text-xl md:text-2xl mb-2"
         >
           Name
         </label>
