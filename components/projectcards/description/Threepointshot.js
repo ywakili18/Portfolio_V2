@@ -14,7 +14,7 @@ const Threepointshot = () => {
         hidden: { opacity: 0, scale: 0 }
       }}
     >
-      <div className="flex justify-between">
+      <div className=" flex justify-between mx-auto w-3/4 sm:w-auto sm:m-0">
         <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-blue-400 font-extrabold p-3">
           3pointshot.
         </h1>
@@ -31,7 +31,7 @@ const Threepointshot = () => {
           Github Repo
         </a>
       </div>
-      <div>
+      <div className="mx-auto w-3/4 sm:w-auto sm:m-0">
         <p className="mt-8">
           3pointshot is a NBA stats tracker app using the Balldontlie api to
           fetch data about your favorite player during the 2021-2022 NBA season.
@@ -49,7 +49,7 @@ const Threepointshot = () => {
         </ul>
       </div>
 
-      <div className="mt-10 flex flex-col justify-evenly text-xs">
+      <div className="mt-10 flex flex-col justify-evenly text-xs text-center">
         <div>
           <span className="language text-rose-500">HTML5</span>
           <span className="language text-sky-500">CSS3</span>

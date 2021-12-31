@@ -13,7 +13,7 @@ const Trakflow = () => {
       }}
       className="sm:w-1/2 sm:ml-10 text-xs md:text-lg"
     >
-      <div className="flex justify-between">
+      <div className="flex justify-between mx-auto w-3/4 sm:w-auto sm:m-0">
         <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-purple-400 font-extrabold p-3">
           Trakflow.
         </h1>
@@ -30,7 +30,7 @@ const Trakflow = () => {
           Github Repo
         </a>
       </div>
-      <div>
+      <div className="mx-auto w-3/4 sm:w-auto sm:m-0">
         <p className="mt-8">
           Trakflow is a full-stack, issue tracking web application to help users
           track and report any tickets or issues using a "flow".
@@ -49,7 +49,7 @@ const Trakflow = () => {
         </ul>
       </div>
 
-      <div className="mt-10 flex flex-col justify-evenly text-xs">
+      <div className="mt-10 flex flex-col justify-evenly text-xs text-center">
         <div>
           <span className="language text-rose-500">HTML5</span>
           <span className="language text-sky-500">CSS3</span>

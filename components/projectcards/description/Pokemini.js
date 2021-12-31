@@ -14,7 +14,7 @@ const Pokemini = () => {
       }}
       className="sm:w-1/2 sm:ml-10 text-sm md:text-lg"
     >
-      <div className="flex justify-between">
+      <div className="flex justify-between ">
         <h1 className="text-center text-lg sm:text-3xl md:text-4xl text-orange-400 font-extrabold p-3">
           Pokemon Gold Mini.
         </h1>
@@ -31,7 +31,7 @@ const Pokemini = () => {
           Github Repo
         </a>
       </div>
-      <div>
+      <div className="mx-auto w-3/4 sm:w-auto sm:m-0">
         <p className="mt-8">
           Pokemon Gold Mini is a web application game. Pick between 3 pokemon
           and battle to determine a winner!
@@ -49,7 +49,7 @@ const Pokemini = () => {
         </ul>
       </div>
 
-      <div className="mt-10 flex justify-evenly text-xs">
+      <div className="mt-10 flex justify-evenly text-xs text-center ">
         <div>
           <span className="language text-rose-500">HTML5</span>
           <span className="language text-sky-500">CSS3</span>

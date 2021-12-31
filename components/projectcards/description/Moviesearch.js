@@ -31,7 +31,7 @@ const Moviesearch = () => {
           Github Repo
         </a>
       </div>
-      <div>
+      <div className="mx-auto w-3/4 sm:w-auto sm:m-0">
         <p className="mt-8">
           Quik Movie search is a web application fetching data about your
           favorite movie using the TMDB API.
@@ -46,7 +46,7 @@ const Moviesearch = () => {
         </ul>
       </div>
 
-      <div className="mt-10 flex justify-evenly text-xs">
+      <div className="mt-10 flex justify-evenly  text-xs text-center">
         <div>
           <span className="language text-rose-500">HTML5</span>
           <span className="language text-sky-500">CSS3</span>

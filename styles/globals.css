@@ -20,3 +20,8 @@ html {
   border-radius: 1em;
   font-weight: 900;
 }
+@media screen and (device-aspect-ratio: 40/71) {
+  .language {
+    padding: 0.2em;
+  }
+}
