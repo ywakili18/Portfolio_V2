@@ -15,7 +15,7 @@ html {
   @apply font-Montserrat;
 }
 .language {
-  padding: 0.6em;
+  padding: 0.4em;
   background-color: rgb(42, 42, 41);
   border-radius: 1em;
   font-weight: 900;
@@ -24,4 +24,7 @@ html {
   .language {
     padding: 0.2em;
   }
+}
+.thankyou {
+  background-color: #272a3a;
 }

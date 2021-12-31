@@ -13,19 +13,19 @@ const Trakflow = () => {
       }}
       className="sm:w-1/2 sm:ml-10 text-xs md:text-lg"
     >
-      <div className="flex justify-between mx-auto w-3/4 sm:w-auto sm:m-0">
-        <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-purple-400 font-extrabold p-3">
+      <div className="flex justify-between  sm:w-auto sm:m-0 ">
+        <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-pink-400 font-extrabold p-3">
           Trakflow.
         </h1>
         <a
           href="https://immense-dawn-73702.herokuapp.com/"
-          className="underline hover:text-purple-300 hover:bg-slate-700  rounded-lg p-4 md:mt-0"
+          className="underline hover:text-purple-300 hover:bg-slate-700  rounded-lg p-4 md:mt-0 text-blue-400"
         >
           Link
         </a>
         <a
           href="https://github.com/ywakili18/trakflow"
-          className="underline hover:text-purple-300 hover:bg-slate-700   rounded-lg p-4 md:mt-0"
+          className="underline hover:text-purple-300 hover:bg-slate-700   rounded-lg p-4 md:mt-0 text-blue-400"
         >
           Github Repo
         </a>
@@ -49,22 +49,22 @@ const Trakflow = () => {
         </ul>
       </div>
 
-      <div className="mt-10 flex flex-col justify-evenly text-xs text-center">
-        <div>
-          <span className="language text-rose-500">HTML5</span>
-          <span className="language text-sky-500">CSS3</span>
-          <span className="language text-yellow-500">JavaScript</span>
-          <span className="language text-sky-200">React</span>
-          <span className="language text-green-500">Redux</span>
-          <span className="language text-blue-300">Tailwindcss</span>
+      <div className="languageIcons text-center flex flex-col mt-5">
+        <div className="flex  flex-col sm:flex-row">
+          <div className="language text-rose-500">HTML5</div>
+          <div className="language text-sky-500">CSS3</div>
+          <div className="language text-yellow-500">JavaScript</div>
+          <div className="language text-sky-200">React</div>
+          <div className="language text-green-500">Redux</div>
+          <div className="language text-blue-300">Tailwindcss</div>
         </div>
-        <div className="mt-10">
-          <span className="language text-slate-300">Git</span>
-          <span className="language text-sky-200">PostgreSQL</span>
-          <span className="language text-emerald-300">Node.js</span>
-          <span className="language text-green-200">Express.js</span>
-          <span className="language text-purple-500">Heroku</span>
-          <span className="language text-gray-200">JWT</span>
+        <div className="flex  flex-col sm:flex-row mt-2">
+          <div className="language text-slate-300">Git</div>
+          <div className="language text-sky-200">PostgreSQL</div>
+          <div className="language text-emerald-300">Node.js</div>
+          <div className="language text-green-200">Express.js</div>
+          <div className="language text-purple-500">Heroku</div>
+          <div className="language text-gray-200">JWT</div>
         </div>
       </div>
     </motion.div>

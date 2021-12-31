@@ -23,7 +23,7 @@ const card = () => {
     <div className="">
       {['Trakflow', 'Threepointshot', 'Moviesearch', 'Pokemini'].map((path) => {
         return (
-          <div key={path} className="sm:flex justify-evenly mt-10">
+          <div key={path} className="sm:flex justify-evenly mt-20">
             <Image
               src={`/${path}.png`}
               width={400}

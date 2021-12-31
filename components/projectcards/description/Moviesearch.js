@@ -20,13 +20,13 @@ const Moviesearch = () => {
         </h1>
         <a
           href="https://quikmoviesearch.surge.sh/"
-          className="underline hover:text-purple-300 hover:bg-slate-700  rounded-lg p-4 md:mt-0"
+          className="underline hover:text-purple-300 hover:bg-slate-700  rounded-lg p-4 md:mt-0 text-blue-400"
         >
           Link
         </a>
         <a
           href="https://github.com/ywakili18/Movie-Search"
-          className="underline hover:text-purple-300 hover:bg-slate-700   rounded-lg p-4 md:mt-0"
+          className="underline hover:text-purple-300 hover:bg-slate-700   rounded-lg p-4 md:mt-0 text-blue-400"
         >
           Github Repo
         </a>
@@ -46,8 +46,8 @@ const Moviesearch = () => {
         </ul>
       </div>
 
-      <div className="mt-10 flex justify-evenly  text-xs text-center">
-        <div>
+      <div className="languageIcons text-center flex flex-col mt-5">
+        <div className="flex  flex-col sm:flex-row">
           <span className="language text-rose-500">HTML5</span>
           <span className="language text-sky-500">CSS3</span>
           <span className="language text-yellow-500">JavaScript</span>
