@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-import Form from '../components/form/form'
+import Form from '../components/form/Form'
 const Contact = () => {
   return (
     <div id="contact" className="p-20  flex flex-col justify-evenly mt-48">

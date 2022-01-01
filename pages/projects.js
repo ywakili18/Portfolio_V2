@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../components/projectcards/card'
+import Card from '../components/projectcards/Card'
 const Projects = () => {
   return (
     <div className="p-20  flex flex-col justify-evenly" id="projects">
