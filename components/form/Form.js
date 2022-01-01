@@ -5,12 +5,12 @@ const Form = () => {
     <form
       action="https://formsubmit.co/ywakili18@gmail.com"
       method="POST"
-      className="text-black  mx-auto"
+      className="text-black  mx-auto md:w-1/2"
     >
-      <div className="border border-white rounded-lg flex flex-col text-center p-2 text-xs ">
+      <div className="border border-white  flex flex-col text-center  text-xs p-10">
         <label
           htmlFor="name"
-          className="text-violet-400 text-left text-lg sm:text-xl md:text-2xl mb-2"
+          className="text-gray-400 text-left text-lg sm:text-xl md:text-2xl mb-2"
         >
           Name
         </label>
@@ -23,7 +23,7 @@ const Form = () => {
         />
         <label
           htmlFor="email"
-          className="text-violet-400 text-left text-lg sm:text-xl md:text-2xl mt-2"
+          className="text-gray-400 text-left text-lg sm:text-xl md:text-2xl mt-2"
         >
           Email
         </label>
@@ -36,7 +36,7 @@ const Form = () => {
         />
         <label
           htmlFor="message"
-          className="text-violet-400 text-left text-lg sm:text-xl md:text-2xl"
+          className="text-gray-400 text-left text-lg sm:text-xl md:text-2xl"
         >
           Your Message
         </label>

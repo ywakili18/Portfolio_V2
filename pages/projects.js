@@ -9,7 +9,7 @@ const Projects = () => {
         </p>
         <p className="text-lg sm:text-2xl md:text-3xl mt-5">
           {' '}
-          Some projects i've been{' '}
+          Featured projects i've been{' '}
           <span className="text-violet-400">building.</span>
         </p>
       </div>
