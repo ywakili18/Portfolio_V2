@@ -44,8 +44,8 @@ export default function Home() {
         {/* Title */}
         <div className="m-auto  mt-28 sm:mx-auto text-center ">
           <h1 className="text-xl sm:text-7xl text-purple-500 flex justify-center">
-            Yousof Wakili
-            <SiXdadevelopers className="mt-2 ml-2" />
+            Yousof Wakili 💻
+            {/* <SiXdadevelopers className="mt-2 ml-2" /> */}
           </h1>
           {/* SWE and FEDEV */}
           <div className="flex mt-10 ml-2">
