@@ -44,6 +44,7 @@ const AboutMe = () => {
         <p>CSS3</p>
         <p>JavaScript (ES6+)</p>
         <p>React.js</p>
+        <p>Next.js</p>
         <p>Redux</p>
         <p>Node.js</p>
         <p>PostgreSQL</p>

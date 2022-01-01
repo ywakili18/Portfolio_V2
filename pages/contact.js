@@ -19,10 +19,10 @@ const Contact = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.2 }}
         variants={{
-          visible: { x: 0, scale: 1 },
-          hidden: { x: 500, scale: 0 }
+          visible: { y: 0, opacity: 1 },
+          hidden: { y: 500, opacity: 0 }
         }}
       >
         <Form />
