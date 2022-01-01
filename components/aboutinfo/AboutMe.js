@@ -8,10 +8,10 @@ const AboutMe = () => {
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.2 }}
       variants={{
-        visible: { x: 0, scale: 1 },
-        hidden: { x: -500, scale: 0 }
+        visible: { y: 0, opacity: 1 },
+        hidden: { y: 500, opacity: 0 }
       }}
     >
       <p>
@@ -27,14 +27,14 @@ const AboutMe = () => {
         interactive experiences on the web.
       </p>
       <p>
-        My drive for problem solving comes from working in the{' '}
-        <span className="text-fuchsia-400">business world</span> where I wore
-        many hats, both as a leader and a team player.
+        My drive for problem solving comes from working in{' '}
+        <span className="text-fuchsia-400">telecom </span> where I wore many
+        hats, both as a leader and a team player.
       </p>
       <p>
         Compiling my first line of code back in 2016 had become the catalyst to
         my journey as a{' '}
-        <span className="text-fuchsia-400">software engineer.</span>
+        <span className="text-fuchsia-400">software engineer!</span>
       </p>
       <p className="underline">
         A few technologies I&apos;ve been working with:

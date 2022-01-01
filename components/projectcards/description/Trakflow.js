@@ -32,8 +32,9 @@ const Trakflow = () => {
       </div>
       <div className="mx-auto w-3/4 sm:w-auto sm:m-0">
         <p className="mt-8">
-          Trakflow is a full-stack, issue tracking web application to help users
-          track and report any tickets or issues using a flow.
+          Trakflow is a full-stack, CRUD issue tracking web application to help
+          users track and report any tickets or issues using a flow. Deployed
+          via Heroku.
         </p>
         <ul className="mt-8">
           <p className="underline">Features:</p>

@@ -9,7 +9,6 @@ const About = () => {
         </p>
       </div>
       <AboutMe />
-      <p className="text-xs text-right">Built by Yousof Wakili</p>
     </div>
   )
 }

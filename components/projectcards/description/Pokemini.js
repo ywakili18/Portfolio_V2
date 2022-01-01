@@ -35,7 +35,7 @@ const Pokemini = () => {
       <div className="mx-auto w-3/4 sm:w-auto sm:m-0">
         <p className="mt-8">
           Pokemon Gold Mini is a web application game. Pick between 3 pokemon
-          and battle to determine a winner!
+          and battle to determine a winner! Deployed via Surge.
         </p>
         <ul className="mt-8">
           <p className="underline">Features:</p>

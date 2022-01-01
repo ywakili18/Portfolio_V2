@@ -34,7 +34,7 @@ const Moviesearch = () => {
       <div className="mx-auto w-3/4 sm:w-auto sm:m-0">
         <p className="mt-8">
           Quik Movie search is a web application fetching data about your
-          favorite movie using the TMDB API.
+          favorite movie using the TMDB API. Deployed via Surge.
         </p>
         <ul className="mt-8">
           <p className="underline">Features:</p>

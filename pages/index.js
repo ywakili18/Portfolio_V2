@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai'
 import NavBar from '../components/NavBar'
+import Footer from '../components/Footer'
 import Projects from './projects'
 import Contact from './contact'
 import About from './about'
@@ -29,6 +30,8 @@ export default function Home() {
       </Head>
 
       <NavBar />
+      <Footer />
+      {/* Home page content */}
       <motion.div
         id="#"
         className="flex h-screen"

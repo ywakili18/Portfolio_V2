@@ -35,6 +35,7 @@ const Threepointshot = () => {
         <p className="mt-8">
           3pointshot is a NBA stats tracker app using the Balldontlie api to
           fetch data about your favorite player during the 2021-2022 NBA season.
+          Deployed via Vercel.
         </p>
         <ul className="mt-8">
           <p className="underline">Features:</p>
