@@ -15,7 +15,7 @@ const AboutMe = () => {
       }}
     >
       <p>
-        Hey, my name is <span className="text-fuchsia-400">Yousof.</span>
+        Hey, my name is <span className="text-fuchsia-400">Yousof Wakili.</span>
       </p>
       <p>
         I'm a passionate software engineer based out of the{' '}
