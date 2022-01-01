@@ -50,7 +50,7 @@ const Form = () => {
         <input
           type="hidden"
           name="_next"
-          value="http://youseffect.com/thankyou"
+          value="http://localhost:3000/thankyou"
         ></input>
         <button
           type="submit"

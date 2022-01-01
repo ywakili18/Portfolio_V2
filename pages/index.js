@@ -8,7 +8,6 @@ import About from './About'
 import Button from '../components/buttons/Button'
 import { SiXdadevelopers } from 'react-icons/si'
 import { MdOutlineDeveloperBoard, MdKeyboardAlt } from 'react-icons/md'
-import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 export default function Home() {
   return (

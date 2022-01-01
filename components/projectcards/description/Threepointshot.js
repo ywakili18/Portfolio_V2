@@ -25,7 +25,7 @@ const Threepointshot = () => {
           Link
         </a>
         <a
-          href="https://github.com/ywakili18/trakflow"
+          href="https://github.com/ywakili18/threepointshot"
           className="underline hover:text-purple-300 hover:bg-slate-700   rounded-lg p-4 md:mt-0 text-blue-400"
         >
           Github Repo
