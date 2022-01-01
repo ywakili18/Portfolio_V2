@@ -7,7 +7,8 @@ const thankyou = () => {
       <div className="m-auto">
         {' '}
         <p>
-          Thanks you for contacting me, I'll reach back out as soon as possible!
+          Thanks you for contacting me, I&apos;ll reach back out as soon as
+          possible!
         </p>
         <p>-Yousof W.</p>
         <Link href="/">

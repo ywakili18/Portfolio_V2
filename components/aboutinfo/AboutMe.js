@@ -18,11 +18,11 @@ const AboutMe = () => {
         Hey, my name is <span className="text-fuchsia-400">Yousof Wakili.</span>
       </p>
       <p>
-        I'm a passionate software engineer based out of the{' '}
+        I&apos;m a passionate software engineer based out of the{' '}
         <span className="text-fuchsia-400">San Francisco Bay Area.</span>
       </p>
       <p>
-        I'm currently working as a
+        I&apos;m currently working as a
         <span className="text-fuchsia-400"> front-end developer</span> creating
         interactive experiences on the web.
       </p>
@@ -36,7 +36,9 @@ const AboutMe = () => {
         my journey as a{' '}
         <span className="text-fuchsia-400">software engineer.</span>
       </p>
-      <p className="underline">A few technologies I've been working with:</p>
+      <p className="underline">
+        A few technologies I&apos;ve been working with:
+      </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 text-rose-200 font-black">
         <p>HTML5</p>
         <p>CSS3</p>
