@@ -27,6 +27,10 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap"
           rel="stylesheet"
         ></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap"
+          rel="stylesheet"
+        ></link>
       </Head>
 
       <NavBar />
@@ -41,12 +45,12 @@ export default function Home() {
         animate={{
           scale: 1
         }}
-        transition={{ delay: 0.4 }}
+        transition={{ delay: 1 }}
       >
         {/* Title */}
         <div className="m-auto  mt-28 sm:mx-auto text-center ">
-          <h1 className="text-xl sm:text-7xl text-purple-500 flex justify-center">
-            Yousof Wakili 💻
+          <h1 className="text-lg sm:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-rose-400 to-violet-600 flex justify-center font-Bungee">
+            Yousof Wakili
             {/* <SiXdadevelopers className="mt-2 ml-2" /> */}
           </h1>
           {/* SWE and FEDEV */}

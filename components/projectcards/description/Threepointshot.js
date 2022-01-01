@@ -15,7 +15,7 @@ const Threepointshot = () => {
       }}
     >
       <div className=" flex justify-between mx-auto w-3/4 sm:w-auto sm:m-0">
-        <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-orange-400 font-extrabold p-3">
+        <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-orange-400 font-extrabold p-3 font-Bungee">
           3pointshot.
         </h1>
         <a

@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div id="contact" className="p-20  flex flex-col justify-evenly mt-48">
       <div className="text-center">
-        <p className="text-violet-400 text-2xl sm:text-3xl md:text-5xl mt-20">
+        <p className="text-violet-400 text-2xl sm:text-3xl md:text-5xl mt-20 font-Bungee">
           say hello.
         </p>
         <p className="text-lg sm:text-2xl md:text-3xl mt-5">

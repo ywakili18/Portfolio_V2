@@ -7,7 +7,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       Montserrat: ['Montserrat', 'sans-serif'],
-      Comfortaa: ['Comfortaa', 'cursive']
+      Comfortaa: ['Comfortaa', 'cursive'],
+      Bungee: ['Bungee Shade', 'cursive']
     }
   },
   plugins: []

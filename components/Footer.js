@@ -12,7 +12,7 @@ const Footer = () => {
     >
       <p className="text-xs flex justify-end ">
         <CgCopyright className="text-xl" />
-        <p className="mt-0.5 ml-1">Yousof Wakili</p>
+        <p className="mt-0.5 ">2021 Yousof Wakili</p>
       </p>
     </motion.div>
   )

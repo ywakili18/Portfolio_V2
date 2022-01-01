@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div className="p-20  flex flex-col justify-evenly" id="projects">
       <div className="text-center mt-40">
-        <p className="text-violet-400 text-2xl sm:text-3xl md:text-5xl">
+        <p className="text-violet-400 text-2xl sm:text-3xl md:text-5xl font-Bungee">
           works.
         </p>
         <p className="text-lg sm:text-2xl md:text-3xl mt-5">
