@@ -3,6 +3,8 @@
 @tailwind utilities;
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: #121212;
@@ -13,6 +15,7 @@ a {
 }
 html {
   @apply font-Montserrat;
+  scroll-behavior: smooth;
 }
 .language {
   padding: 0.6em;
@@ -20,6 +23,7 @@ html {
   border-radius: 1em;
   font-weight: 900;
 }
+/* targeting iPhone 5s/SE devices */
 @media screen and (device-aspect-ratio: 40/71) {
   .language {
     padding: 0.2em;
@@ -28,6 +32,7 @@ html {
 .thankyou {
   background-color: #272a3a;
 }
+
 .aboutme p {
-  padding: 1em;
+  padding: 0.4em;
 }

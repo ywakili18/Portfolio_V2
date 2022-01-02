@@ -7,7 +7,7 @@ const Form = () => {
       method="POST"
       className="text-black  mx-auto md:w-1/2"
     >
-      <div className="border border-white  flex flex-col text-center  text-xs p-10">
+      <div className="border-4 border-white  flex flex-col text-center  text-xs p-10">
         <label
           htmlFor="name"
           className="text-gray-400 text-left text-lg sm:text-xl md:text-2xl mb-2"
@@ -17,7 +17,7 @@ const Form = () => {
         <input
           type="text"
           name="name"
-          placeholder="Name"
+          placeholder="Enter your name"
           required
           className="bg-gray-300  placeholder-gray-400 text-black p-2 rounded-lg "
         />
@@ -30,7 +30,7 @@ const Form = () => {
         <input
           type="email"
           name="email"
-          placeholder="Email"
+          placeholder="Your email"
           required
           className="bg-gray-300  placeholder-gray-400 text-black mt-2 p-2 rounded-lg mb-2"
         />
@@ -38,12 +38,12 @@ const Form = () => {
           htmlFor="message"
           className="text-gray-400 text-left text-lg sm:text-xl md:text-2xl"
         >
-          Your Message
+          Message
         </label>
         <textarea
           type="message"
           name="message"
-          placeholder="Your Message"
+          placeholder="Hi Yousof!"
           required
           className="bg-gray-300  placeholder-gray-400 text-black mt-2 p-2 rounded-lg "
         />

@@ -44,9 +44,10 @@ const Trakflow = () => {
           </li>
           <li>-User tickets is stored in a PostgreSQL database</li>
           <li>
-            -Node.js and Express.js are used for backend and API fetching.
+            -Node and Express to help with handling HTTP requests and building a
+            RESTful API for the backend.
           </li>
-          <li>-React.js, Redux for state management.</li>
+          <li>-React.js, Redux for state management and handling the UI.</li>
         </ul>
       </div>
 

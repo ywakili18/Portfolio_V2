@@ -14,8 +14,9 @@ const Footer = () => {
         <CgCopyright className="text-xl" />
         <p className="mt-0.5 ">2021 Yousof Wakili</p>
       </p>
+      <span className="text-right text-xs">Built with Next.js</span>
       <Link href="/#">
-        <a className="text-right text-xs text-violet-400 underline">
+        <a className="text-right text-xs text-blue-400 underline">
           Return to top
         </a>
       </Link>

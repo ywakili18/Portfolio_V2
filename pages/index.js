@@ -45,13 +45,12 @@ export default function Home() {
         animate={{
           scale: 1
         }}
-        transition={{ delay: 1 }}
+        transition={{ delay: 0.4 }}
       >
         {/* Title */}
         <div className="m-auto  mt-28 sm:mx-auto text-center ">
-          <h1 className="text-lg sm:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-rose-400 to-violet-600 flex justify-center font-Bungee">
-            Yousof Wakili
-            {/* <SiXdadevelopers className="mt-2 ml-2" /> */}
+          <h1 className="text-lg sm:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-rose-600 to-violet-300 flex justify-center font-Bungee">
+            Yousof Wakili.
           </h1>
           {/* SWE and FEDEV */}
           <div className="flex mt-10 ml-2">
@@ -125,9 +124,9 @@ export default function Home() {
           </div>
         </div>
       </motion.div>
+      <About />
       <Projects />
       <Contact />
-      <About />
     </div>
   )
 }
