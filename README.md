@@ -1,3 +1,3 @@
 # Yousof Wakili - Portfolio V2
 
-# Built with Next.js
+# Built with Next.js, Tailwindcss, and Framer Motion.
