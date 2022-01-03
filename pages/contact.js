@@ -15,14 +15,14 @@ const Contact = () => {
         </p>
       </div>
       <motion.div
-        className="mt-5"
+        className="mt-2"
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
         transition={{ duration: 0.3 }}
         variants={{
           visible: { y: 0, opacity: 1 },
-          hidden: { y: 500, opacity: 0 }
+          hidden: { y: 400, opacity: 0 }
         }}
       >
         <Form />

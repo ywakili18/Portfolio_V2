@@ -40,6 +40,12 @@ const NavBar = () => {
             <p className="mt-3">about. 🧑🏻‍💻</p>
           </a>
         </Link>
+        <a
+          className="hover:text-blue-900 hover:bg-violet-400  rounded-lg px-3 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 "
+          href="yousof_wakili_resume.pdf"
+        >
+          <p className="mt-3">view resume. 📄</p>
+        </a>
       </nav>
     </motion.div>
   )

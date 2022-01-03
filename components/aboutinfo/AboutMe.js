@@ -11,7 +11,7 @@ const AboutMe = () => {
       transition={{ duration: 0.3 }}
       variants={{
         visible: { y: 0, opacity: 1 },
-        hidden: { y: 500, opacity: 0 }
+        hidden: { y: 400, opacity: 0 }
       }}
     >
       <p>
