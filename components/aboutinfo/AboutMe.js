@@ -23,7 +23,7 @@ const AboutMe = () => {
       </p>
       <p>
         I&apos;m currently working as a
-        <span className="text-fuchsia-400"> front-end developer</span> creating
+        <span className="text-fuchsia-400"> Full-Stack JavaScript developer</span> at 21PSTEM
         interactive experiences on the web{' '}
         <span className="text-fuchsia-400">
           and solving a bunch of problems!
@@ -53,12 +53,15 @@ const AboutMe = () => {
       <div className="grid grid-cols-2 sm:grid-cols-3 text-rose-200 font-black">
         <p>HTML5</p>
         <p>CSS3</p>
+        <p>Python</p>
         <p>JavaScript (ES6+)</p>
+        <p>Ember.js</p>
         <p>React.js</p>
         <p>Next.js</p>
         <p>Redux</p>
         <p>Node.js</p>
         <p>PostgreSQL</p>
+        <p>MongoDb</p>
         <p>Express.js</p>
         <p>Tailwindcss</p>
         <p>Bootstrap</p>
