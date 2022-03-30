@@ -42,7 +42,7 @@ const NavBar = () => {
         </Link>
         <a
           className="hover:text-blue-900 hover:bg-violet-400  rounded-lg px-3 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 "
-          href="yousof_wakili_resume.pdf" target="_blank"
+          href="yousof_wakili_resume.pdf" target="_blank" rel="noreferrer" 
         >
           <p className="mt-3">view resume. 📄</p>
         </a>

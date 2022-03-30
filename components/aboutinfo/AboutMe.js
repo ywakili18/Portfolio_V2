@@ -32,7 +32,7 @@ const AboutMe = () => {
 
       <p>
         I&apos;m the lead developer on the 
-        <a className="text-violet-400 hover:text-rose-500 underline" href="https://encompass.mathematicalthinking.org" target="_blank"> EnCoMPASS project, </a> 
+        <a className="text-violet-400 hover:text-rose-500 underline" href="https://encompass.mathematicalthinking.org" target="_blank" rel="noreferrer" > EnCoMPASS project, </a> 
         a collaborative work 
         involving Drexel University and Temple University, developing an online, 
         professional teaching community that is addressing issues of assessment in mathematics classes.
