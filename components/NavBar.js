@@ -25,9 +25,14 @@ const NavBar = () => {
             <p className="mt-3">home. 🏠</p>
           </a>
         </Link>
+        <Link href="#about">
+          <a className="hover:text-blue-900 hover:bg-violet-400  rounded-lg px-3 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 ">
+            <p className="mt-3">about. 🧑🏻‍💻</p>
+          </a>
+        </Link>
         <Link href="#projects">
           <a className="hover:text-blue-900 hover:bg-violet-400  rounded-lg px-3 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300">
-            <p className="mt-3">projects. ⚙️</p>
+            <p className="mt-3">works. ⚙️</p>
           </a>
         </Link>
         <Link href="#contact">
@@ -35,14 +40,9 @@ const NavBar = () => {
             <p className="mt-3">contact. 📇</p>
           </a>
         </Link>
-        <Link href="#about">
-          <a className="hover:text-blue-900 hover:bg-violet-400  rounded-lg px-3 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 ">
-            <p className="mt-3">about. 🧑🏻‍💻</p>
-          </a>
-        </Link>
         <a
           className="hover:text-blue-900 hover:bg-violet-400  rounded-lg px-3 active:bg-violet-600 focus:outline-none focus:ring focus:ring-violet-300 "
-          href="yousof_wakili_resume.pdf"
+          href="yousof_wakili_resume.pdf" target="_blank"
         >
           <p className="mt-3">view resume. 📄</p>
         </a>

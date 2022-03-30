@@ -7,7 +7,7 @@ const Form = () => {
       method="POST"
       className="text-black  mx-auto md:w-1/2"
     >
-      <div className="border-4 border-white  flex flex-col text-center  text-xs p-10">
+      <div className="border rounded-lg  flex flex-col text-center  text-xs p-10">
         <label
           htmlFor="name"
           className="text-gray-400 text-left text-lg sm:text-xl md:text-2xl mb-2"
@@ -54,7 +54,7 @@ const Form = () => {
         ></input>
         <button
           type="submit"
-          className="border p-2 rounded-lg mt-2 text-xl text-white transition-all duration-500 ease-out hover:bg-purple-400 bg-slate-800 flex justify-center"
+          className="border p-2 rounded-lg mt-2 text-xl text-white transition-all duration-500 ease-out hover:bg-purple-400 bg-stone-800 flex justify-center"
         >
           <p>Send Message</p>
           <IoMdSend className="mt-1 ml-2" />
