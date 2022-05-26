@@ -16,7 +16,7 @@ const Pokemini = () => {
       className="sm:w-1/2 sm:ml-10 text-sm md:text-lg"
     >
       <div className="flex justify-between ">
-        <h1 className="font-Bungee text-center text-lg sm:text-3xl md:text-4xl text-red-700 font-extrabold p-3">
+        <h1 className=" text-center text-lg sm:text-3xl md:text-4xl text-red-700 font-extrabold p-3">
           Pokemon Gold Mini.
         </h1>
         <a

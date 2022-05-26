@@ -12,7 +12,7 @@ const Footer = () => {
     >
       <p className="text-xs flex justify-end ">
         <CgCopyright className="text-xl" />
-        <p className="mt-0.5 ">2021 Yousof Wakili</p>
+        <p className="mt-0.5 ">2022 Yousof Wakili</p>
       </p>
       <span className="text-right text-xs">Built with Next.js</span>
       <Link href="/#">

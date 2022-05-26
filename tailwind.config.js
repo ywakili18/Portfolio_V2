@@ -4,12 +4,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}'
   ],
   theme: {
-    extend: {},
-    fontFamily: {
-      Montserrat: ['Montserrat', 'sans-serif'],
-      Comfortaa: ['Comfortaa', 'cursive'],
-      Bungee: ['Bungee Shade', 'cursive']
-    }
+    extend: {}
   },
   plugins: []
 }

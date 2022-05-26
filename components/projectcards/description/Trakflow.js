@@ -14,7 +14,7 @@ const Trakflow = () => {
       className="sm:w-1/2 sm:ml-10 text-xs md:text-lg"
     >
       <div className="flex justify-between  sm:w-auto sm:m-0 ">
-        <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-pink-400 font-extrabold p-3 font-Bungee">
+        <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-pink-400 font-extrabold p-3 ">
           Trakflow.
         </h1>
         <a

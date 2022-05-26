@@ -6,8 +6,6 @@ import Moviesearch from './description/Moviesearch'
 const card = () => {
   const checkPath = (imagePath) => {
     switch (imagePath) {
-      case 'Trakflow':
-        return <Trakflow />
       case 'Pokemini':
         return <Pokemini />
       case 'Threepointshot':
@@ -21,7 +19,7 @@ const card = () => {
 
   return (
     <div className="">
-      {['Trakflow', 'Threepointshot', 'Moviesearch', 'Pokemini'].map((path) => {
+      {['Threepointshot', 'Moviesearch', 'Pokemini'].map((path) => {
         return (
           <div key={path} className="sm:flex justify-evenly mt-20">
             <Image
