@@ -30,6 +30,16 @@ export default function Home() {
       <Head>
         <title>Yousof Wakili</title>
         <meta name="Portfolio" content="Yousof Wakili Portfolio" />
+        <meta
+          name="description"
+          content="Software engineer and Full-Stack developer portfolio made by Yousof Wakili"
+        />
+        <meta
+          name="keywords"
+          content="HTML, CSS, JavaScript, Python, Sass, React.js, Node.js,"
+        />
+        <meta name="author" content="Yousof wAKILI" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
           rel="icon"
           href="https://cdn-icons-png.flaticon.com/512/1157/1157109.png"
