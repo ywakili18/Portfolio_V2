@@ -5,18 +5,30 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="p-20  flex flex-col justify-evenly mt-48 bg-stone-800 rounded-xl"
+      className="p-20  flex flex-col justify-evenly mt-48 bg-stone-900 rounded-xl font-bold"
     >
-      <div className="text-center">
-        <p className="text-violet-400 text-2xl sm:text-3xl md:text-5xl mt-20">
-          say hello.
-        </p>
-        <p className="text-lg sm:text-2xl md:text-3xl mt-5">
-          {' '}
-          Let me help build your new{' '}
-          <span className="text-violet-400">idea.</span>
-        </p>
-      </div>
+      {/* animated text */}
+      <motion.div
+        className="text-violet-200 text-xl sm:text-3xl"
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true }}
+        variants={{
+          visible: {
+            opacity: 1,
+            y: 0,
+            transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 2.5 }
+          },
+          hidden: {
+            opacity: 0,
+            y: 50,
+            transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 3 }
+          }
+        }}
+      >
+        contact me.
+        <p>say hello!</p>
+      </motion.div>
       <motion.div
         className="mt-2"
         initial="hidden"

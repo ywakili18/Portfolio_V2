@@ -5,8 +5,10 @@ const AboutMe = () => {
   const techSkills = [
     'HTML5',
     'CSS3',
+    'Tailwindcss',
+    'Sass',
     'Python',
-    'JavaScript (ES6+)',
+    'JavaScript',
     'Ember.js',
     'React.js',
     'Next.js',
@@ -15,8 +17,6 @@ const AboutMe = () => {
     'PostgreSQL',
     'MongoDb',
     'Express.js',
-    'Tailwindcss',
-    'MaterialUI',
     'Git',
     'Docker',
     'Mocha / Chai',
@@ -35,18 +35,31 @@ const AboutMe = () => {
         hidden: { opacity: 0 }
       }}
     >
-      <p>Hello 👋</p>
+      <p className="text-fuchsia-400 flex items-center">
+        &lt;Hello World! <span className="text-xs">&#47;</span>&gt;{' '}
+        <motion.p
+          animate={{ rotate: 100 }}
+          transition={{
+            delay: 1,
+            duration: 1,
+            repeat: Infinity,
+            repeatType: 'reverse'
+          }}
+        >
+          👋
+        </motion.p>
+      </p>
       <p>
         {' '}
-        My name is <span className="text-fuchsia-200">Yousof Wakili.</span>
+        My name is <span className="text-fuchsia-400">Yousof Wakili.</span>
       </p>
       <p>
         I&apos;m a passionate software engineer based out of the{' '}
-        <span className="text-fuchsia-200">San Francisco Bay Area.</span>
+        <span className="text-fuchsia-400">San Francisco Bay Area.</span>
       </p>
       <p>
         Currently I&apos;m working as a
-        <span className="text-fuchsia-200">
+        <span className="text-fuchsia-400">
           {' '}
           Full-Stack JavaScript developer
         </span>{' '}
@@ -54,24 +67,23 @@ const AboutMe = () => {
       </p>
 
       <p>
-        I&apos;m the lead developer on the
+        I&apos;m the lead developer on the{' '}
         <a
-          className="text-violet-400 hover:text-rose-500 underline"
+          className="text-indigo-400 hover:text-rose-500 underline"
           href="https://encompass.mathematicalthinking.org"
           target="_blank"
           rel="noreferrer"
         >
-          {' '}
-          EnCoMPASS project,{' '}
-        </a>
-        a collaborative work involving Drexel University and California State
-        University, San Marcos, developing an online, professional teaching
+          EnCoMPASS project{' '}
+        </a>{' '}
+        , a collaborative work involving Drexel University and California State
+        University San Marcos, developing an online, professional teaching
         community that is addressing issues of assessment in mathematics
         classes.
       </p>
       <p>
         As of this moment I work a lot with
-        <span className=" text-fuchsia-200">
+        <span className=" text-fuchsia-400">
           {' '}
           HTML, CSS, SaSS, JavaScript, React.js, Ember.js, MongoDb, Node.js,
           Docker, Mocha/Chai, and Selenium.
@@ -79,17 +91,15 @@ const AboutMe = () => {
       </p>
       <p>
         When I&apos;m not exploring new technologies, in my spare time{' '}
-        <span className="text-fuchsia-200">
+        <span className="text-fuchsia-400">
           I enjoy playing sports, gaming, hiking, and tending to my plants.
         </span>
       </p>
-      <div className="p-4 mt-10  rounded-lg bg-stone-900">
-        <p className="text-center text-2xl text-rose-400">
-          Technologies I&apos;ve worked with:
+      <div className=" mt-10  rounded-lg bg-stone-900 text-center">
+        <p className="text-2xl decoration-violet-500 color:violet-400 underline">
+          Tech Stack I have worked with
         </p>
-        <div className="grid grid-cols-2 sm:grid-cols-3 text-center">
-          {listSkills}
-        </div>
+        <div className="grid grid-cols-2 sm:grid-cols-3">{listSkills}</div>
       </div>
     </motion.div>
   )

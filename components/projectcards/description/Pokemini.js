@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-
+import Image from 'next/image'
 const Pokemini = () => {
   return (
     <motion.div
@@ -16,17 +16,37 @@ const Pokemini = () => {
       className="sm:w-1/2 sm:ml-10 text-sm md:text-lg"
     >
       <div className="flex justify-between ">
-        <h1 className=" text-center text-lg sm:text-3xl md:text-4xl text-red-700 font-extrabold p-3">
+        <h1 className=" text-center text-lg sm:text-3xl md:text-4xl text-red-700 font-extrabold p-3 flex">
           Pokemon Gold Mini.
+          <motion.div
+            animate={{ rotate: 180 }}
+            transition={{
+              delay: 1,
+              duration: 2,
+              repeat: Infinity,
+              repeatType: 'reverse'
+            }}
+          >
+            <Image
+              src="/pokemon.svg"
+              alt="basketballgif"
+              width={40}
+              height={24}
+            />
+          </motion.div>
         </h1>
         <a
           href="http://pokemongoldmini.surge.sh/"
+          target="_blank"
+          rel="noreferrer"
           className="underline hover:text-purple-300 hover:bg-slate-700  rounded-lg p-4 md:mt-0 text-blue-400"
         >
           Link
         </a>
         <a
           href="https://github.com/ywakili18/Pokemon-Mini"
+          target="_blank"
+          rel="noreferrer"
           className="underline hover:text-purple-300 hover:bg-slate-700   rounded-lg p-4 md:mt-0 text-blue-400"
         >
           Github Repo

@@ -15,12 +15,11 @@ const Button = ({ text }) => {
     >
       <a
         href="#_"
-        className="relative ml-1 inline-flex items-center justify-center p-2 sm:px-4 sm:py-4 overflow-hidden  
-      font-medium tracking-wide text-white hover:text-purple-300 hover:font-extrabold bg-gray-800 rounded-lg group"
+        className="relative inline-block px-4 py-2 font-medium group"
       >
-        <span className="absolute w-0 h-0 transition-all duration-500 ease-out bg-rose-800  rounded-full group-hover:w-56 group-hover:h-56"></span>
-        <span className="absolute inset-0 w-full h-full -mt-1 rounded-lg opacity-30 bg-gradient-to-b from-transparent via-transparent to-gray-700"></span>
-        <span className="relative  text-sm sm:text-xl hover:underline">
+        <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-fuchsia-900 group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+        <span className="absolute inset-0 w-full h-full bg-violet-400 border-2 border-black group-hover:bg-fuchsia-900"></span>
+        <span className="relative text-black group-hover:text-white">
           {text}
         </span>
       </a>

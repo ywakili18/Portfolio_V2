@@ -9,7 +9,7 @@
   padding: 0;
 }
 body {
-  background-color: #121212;
+  background-color: #0f172a;
   color: #ffffff;
 }
 a {
@@ -33,9 +33,34 @@ html {
   }
 }
 .thankyou {
-  background-color: #272a3a;
+  background-color: #757ca2;
 }
 
 .aboutme p {
   padding: 0.4em;
 }
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(.9);
+  transform-origin: bottom left;
+  text-decoration: underline;
+}
+

@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
-
+import Image from 'next/image'
 const Threepointshot = () => {
   return (
     <motion.div
@@ -15,17 +15,37 @@ const Threepointshot = () => {
       }}
     >
       <div className=" flex justify-between mx-auto w-3/4 sm:w-auto sm:m-0">
-        <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-orange-400 font-extrabold p-3">
+        <h1 className="text-center text-xl sm:text-3xl md:text-4xl text-orange-400 font-extrabold p-3 flex">
           3pointshot.
+          <motion.div
+            animate={{ rotate: 360 }}
+            transition={{
+              delay: 1,
+              duration: 2,
+              repeat: Infinity,
+              repeatType: 'reverse'
+            }}
+          >
+            <Image
+              src="/bball.svg"
+              alt="basketballgif"
+              width={40}
+              height={24}
+            />
+          </motion.div>
         </h1>
         <a
           href="https://threepointshot.vercel.app/"
+          target="_blank"
+          rel="noreferrer"
           className="underline hover:text-purple-300 hover:bg-slate-700  rounded-lg p-4 md:mt-0 text-blue-400"
         >
           Link
         </a>
         <a
           href="https://github.com/ywakili18/threepointshot"
+          target="_blank"
+          rel="noreferrer"
           className="underline hover:text-purple-300 hover:bg-slate-700   rounded-lg p-4 md:mt-0 text-blue-400"
         >
           Github Repo

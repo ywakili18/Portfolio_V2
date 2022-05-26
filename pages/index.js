@@ -1,16 +1,30 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import { AiOutlineLinkedin, AiOutlineGithub } from 'react-icons/ai'
+import Image from 'next/image'
+import AnimatedText from '../components/AnimatedText'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 import Projects from './projects'
 import Contact from './contact'
 import About from './about'
 import Button from '../components/buttons/Button'
-import { MdOutlineDeveloperBoard, MdKeyboardAlt } from 'react-icons/md'
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 
 export default function Home() {
+  const [replay, setReplay] = useState(true)
+  const placeholderText = [
+    { type: 'heading1', text: 'Software Engineer | Full-Stack Developer' }
+  ]
+
+  const container = {
+    visible: {
+      transition: {
+        staggerChildren: 0.025
+      }
+    }
+  }
+
   return (
     <div>
       <Head>
@@ -18,7 +32,7 @@ export default function Home() {
         <meta name="Portfolio" content="Yousof Wakili Portfolio" />
         <link
           rel="icon"
-          href="https://cdn-icons-png.flaticon.com/512/808/808439.png"
+          href="https://cdn-icons-png.flaticon.com/512/1157/1157109.png"
         />
       </Head>
 
@@ -27,56 +41,41 @@ export default function Home() {
       {/* Home page content */}
       <motion.div
         id="#"
-        className="flex h-screen"
+        className="sm:flex flex-none justify-between items-center h-screen bg-slate-900 m-auto"
         initial={{
           scale: 0
         }}
         animate={{
           scale: 1
         }}
-        transition={{ delay: 0.4 }}
+        transition={{ delay: 0.2 }}
       >
         {/* Title */}
-        <div className="m-auto  mt-28 sm:mx-auto text-center ">
+        <div className="m-auto sm:mx-auto p-10">
           <h1
             className="
-          text-lg sm:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-rose-600 to-violet-300 flex justify-center"
+          text-lg sm:text-6xl
+          font-black
+          text-transparent 
+          bg-clip-text 
+          bg-gradient-to-r from-indigo-300 to-purple-400"
           >
             Yousof Wakili.
           </h1>
-          {/* SWE and FEDEV */}
-          <div className="flex mt-10 ml-2">
-            <motion.p
-              initial={{
-                y: 200,
-                opacity: 0
-              }}
-              animate={{
-                y: 0,
-                opacity: 1
-              }}
-              transition={{ delay: 0.6 }}
-              className="text-xs sm:text-2xl text-pink-100  flex"
-            >
-              Software Engineer{' '}
-              <MdKeyboardAlt className=" ml-2 mt-0.5 sm:mt-1 " />
-            </motion.p>
-            <motion.p
-              initial={{
-                y: 200,
-                opacity: 0
-              }}
-              animate={{
-                y: 0,
-                opacity: 1
-              }}
-              transition={{ delay: 0.6 }}
-              className="text-xs sm:text-2xl text-pink-100  flex ml-2"
-            >
-              Full-Stack Developer{' '}
-              <MdOutlineDeveloperBoard className="ml-2 mt-0.5 sm:mt-1" />
-            </motion.p>
-          </div>
+          {/* animated text */}
+          <motion.div
+            className="text-xs sm:text-3xl"
+            initial="hidden"
+            // animate="visible"
+            animate={replay ? 'visible' : 'hidden'}
+            variants={container}
+          >
+            <div className="container">
+              {placeholderText.map((item, index) => {
+                return <AnimatedText {...item} key={index} />
+              })}
+            </div>
+          </motion.div>
           {/* Description */}
           <motion.div
             initial={{
@@ -88,12 +87,14 @@ export default function Home() {
               opacity: 1
             }}
             transition={{ delay: 1.1 }}
-            className="text-xs sm:text-xl text-gray-500 mt-5 text-center"
+            className="text-xs sm:text-xl text-gray-500 mt-5 text-center flex"
           >
-            <p>I build fast, responsive, and beautiful websites.</p>
+            <motion.p className="">
+              I build fast, responsive, and beautiful websites.
+            </motion.p>
           </motion.div>
           {/* Buttons */}
-          <div className="flex justify-around">
+          <div className="flex">
             <Link href="#contact">
               <a>
                 <Button text="Contact Me" />
@@ -105,23 +106,35 @@ export default function Home() {
               </a>
             </Link>
           </div>
-          {/* Social Links */}
-          <div className="text-3xl sm:text-4xl md:text-5xl mt-10 justify-around flex">
-            <a
-              href="https://www.linkedin.com/in/youseffect/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiOutlineLinkedin className="hover:text-violet-400 transition-all duration-300" />
-            </a>
-            <a
-              href="https://github.com/ywakili18"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <AiOutlineGithub className="hover:text-violet-400 transition-all duration-300" />
-            </a>
-          </div>
+        </div>
+        {/* image */}
+        <div className=" m-auto flex items-center">
+          <Image
+            src="/self.png"
+            width={200}
+            height={200}
+            alt="yousof_memoji"
+          ></Image>
+          <motion.div
+            className="mt-10"
+            initial={{
+              y: -10
+            }}
+            animate={{ y: 10 }}
+            transition={{
+              delay: 3.2,
+              duration: 2,
+              repeat: Infinity,
+              repeatType: 'reverse'
+            }}
+          >
+            <Image
+              src="/coding.svg"
+              width={200}
+              height={150}
+              alt="coding.svg"
+            ></Image>
+          </motion.div>
         </div>
       </motion.div>
       <About />
