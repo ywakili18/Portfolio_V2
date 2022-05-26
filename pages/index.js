@@ -9,6 +9,7 @@ import About from './about'
 import Button from '../components/buttons/Button'
 import { MdOutlineDeveloperBoard, MdKeyboardAlt } from 'react-icons/md'
 import { motion } from 'framer-motion'
+
 export default function Home() {
   return (
     <div>
@@ -49,7 +50,8 @@ export default function Home() {
       >
         {/* Title */}
         <div className="m-auto  mt-28 sm:mx-auto text-center ">
-          <h1 className="text-lg sm:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-rose-600 to-violet-300 flex justify-center font-Bungee">
+          <h1 className="
+          text-lg sm:text-5xl text-transparent bg-clip-text bg-gradient-to-br from-rose-600 to-violet-300 flex justify-center font-Montserrat font-">
             Yousof Wakili.
           </h1>
           {/* SWE and FEDEV */}
@@ -81,7 +83,7 @@ export default function Home() {
               transition={{ delay: 0.6 }}
               className="text-xs sm:text-2xl text-pink-100  flex ml-2"
             >
-              Front-End Developer{' '}
+              Full-Stack Developer{' '}
               <MdOutlineDeveloperBoard className="ml-2 mt-0.5 sm:mt-1" />
             </motion.p>
           </div>
@@ -115,10 +117,10 @@ export default function Home() {
           </div>
           {/* Social Links */}
           <div className="text-3xl sm:text-4xl md:text-5xl mt-10 justify-around flex">
-            <a href="https://www.linkedin.com/in/youseffect/">
+            <a href="https://www.linkedin.com/in/youseffect/" target="_blank" rel="noreferrer" >
               <AiOutlineLinkedin className="hover:text-violet-400 transition-all duration-300" />
             </a>
-            <a href="https://github.com/ywakili18">
+            <a href="https://github.com/ywakili18" target="_blank" rel="noreferrer" >
               <AiOutlineGithub className="hover:text-violet-400 transition-all duration-300" />
             </a>
           </div>

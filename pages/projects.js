@@ -2,9 +2,9 @@ import React from 'react'
 import Card from '../components/projectcards/Card'
 const Projects = () => {
   return (
-    <div className="p-20  flex flex-col justify-evenly" id="projects">
+    <div className="p-20  flex flex-col justify-evenly rounded-xl" id="projects">
       <div className="text-center mt-40">
-        <p className="text-violet-400 text-2xl sm:text-3xl md:text-5xl font-Bungee">
+        <p className="text-violet-400 text-2xl sm:text-3xl md:text-5xl font-Montserrat">
           works.
         </p>
         <p className="text-lg sm:text-2xl md:text-3xl mt-5">

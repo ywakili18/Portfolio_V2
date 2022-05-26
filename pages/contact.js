@@ -3,9 +3,9 @@ import React from 'react'
 import Form from '../components/form/Form'
 const Contact = () => {
   return (
-    <div id="contact" className="p-20  flex flex-col justify-evenly mt-48">
+    <div id="contact" className="p-20  flex flex-col justify-evenly mt-48 bg-stone-800 rounded-xl">
       <div className="text-center">
-        <p className="text-violet-400 text-2xl sm:text-3xl md:text-5xl mt-20 font-Bungee">
+        <p className="text-violet-400 text-2xl sm:text-3xl md:text-5xl mt-20 font-Montserrat">
           say hello.
         </p>
         <p className="text-lg sm:text-2xl md:text-3xl mt-5">
@@ -19,10 +19,10 @@ const Contact = () => {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true }}
-        transition={{ duration: 0.3 }}
+        transition={{ duration: 0.5 }}
         variants={{
-          visible: { y: 0, opacity: 1 },
-          hidden: { y: 400, opacity: 0 }
+          visible: { opacity: 1 },
+          hidden: { opacity: 0 }
         }}
       >
         <Form />
