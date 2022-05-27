@@ -60,12 +60,12 @@ const Threepointshot = () => {
         <ul className="mt-8">
           <p className="underline">Features:</p>
           <li>
-            -Users can search through and request data about any NBA player this
-            seasons
+            -Users can search through and request data about any NBA player in
+            the 2021-2022 NBA season.
           </li>
           <li>
-            -API, Data fetching is used with Axios and displayed using React
-            hooks.
+            -API, Data fetching is used with Axios, JSON data displayed with
+            React hooks.
           </li>
         </ul>
       </div>

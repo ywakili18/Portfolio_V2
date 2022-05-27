@@ -104,13 +104,13 @@ export default function Home() {
             className="text-xs sm:text-xl text-gray-500 mt-5 text-center flex"
           >
             <motion.p className="">
-              I build fast, responsive, and beautiful websites.
+              I build fast, responsive, and engaging websites.
             </motion.p>
           </motion.div>
           {/* Buttons */}
-          <div className="flex">
+          <div className="flex ">
             <Link href="#contact">
-              <a>
+              <a className="mr-10">
                 <Button text="Contact Me" />
               </a>
             </Link>
