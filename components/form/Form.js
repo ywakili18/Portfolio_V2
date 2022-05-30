@@ -7,7 +7,7 @@ const Form = () => {
       method="POST"
       className="text-black  mx-auto md:w-1/2"
     >
-      <div className="border rounded-lg  flex flex-col text-center  text-xs p-10">
+      <div className="rounded-lg  flex flex-col text-center  text-xs p-10">
         <label
           htmlFor="name"
           className="text-gray-400 text-left text-lg sm:text-xl md:text-2xl mb-2"
@@ -19,7 +19,7 @@ const Form = () => {
           name="name"
           placeholder="Enter your name"
           required
-          className="bg-gray-300  placeholder-gray-400 text-black p-2 rounded-lg "
+          className="text-indigo-300 bg-stone-900 border-b border-violet-900 p-2 focus:outline-none"
         />
         <label
           htmlFor="email"
@@ -32,7 +32,7 @@ const Form = () => {
           name="email"
           placeholder="Your email"
           required
-          className="bg-gray-300  placeholder-gray-400 text-black mt-2 p-2 rounded-lg mb-2"
+          className="text-indigo-300 bg-stone-900 border-b border-violet-900 p-2 focus:outline-none"
         />
         <label
           htmlFor="message"
@@ -45,7 +45,7 @@ const Form = () => {
           name="message"
           placeholder="Hi Yousof!"
           required
-          className="bg-gray-300  placeholder-gray-400 text-black mt-2 p-2 rounded-lg "
+          className="text-indigo-300 bg-stone-900 border-b border-violet-900 p-2 focus:outline-none"
         />
         <input
           type="hidden"
@@ -54,10 +54,13 @@ const Form = () => {
         ></input>
         <button
           type="submit"
-          className="border p-2 rounded-lg mt-2 text-xl text-white transition-all duration-500 ease-out hover:bg-purple-400 bg-stone-800 flex justify-center"
+          className="relative inline-block px-4 py-2 font-medium group mt-8 "
         >
-          <p>Send Message</p>
-          <IoMdSend className="mt-1 ml-2" />
+          <span className="absolute inset-0 w-full h-full transition duration-200 ease-out transform translate-x-1 translate-y-1 bg-fuchsia-900 group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+          <span className="absolute inset-0 w-full h-full bg-violet-400 border-2 border-black group-hover:bg-fuchsia-900"></span>
+          <span className="relative text-black group-hover:text-white text-xl">
+            send
+          </span>
         </button>
       </div>
     </form>
